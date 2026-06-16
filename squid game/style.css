@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-image: url("background.webp");
+    padding:1vw 4vw;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: right;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding-top: 15px;
+}
+.mi{
+        font-size: 29px;
+    color: white;
+}
+.logo{
+    height: 45px;
+}
+.menubtn{
+    height: 30px;
+}
+.menuitems{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+section{
+    height: calc(100% - 5vh - 33vh);;
+    display: flex;
+}
+.last-section{
+height: 28vh;
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+   background: linear-gradient(to bottom right, #a02c59, transparent), linear-gradient(to bottom left, #6b1c38, transparent), linear-gradient(to top right, #3a072e, transparent), linear-gradient(to top left, #5a0c3b, transparent);
+    position: relative;
+    bottom: -30px;
+    border-radius: 20px;
+}
+.secdiv1, .secdiv2{
+flex: 1;
+}
+.secdiv2{
+    align-self: end;
+    position: relative;
+    bottom: -38px;
+}
+.secdiv1 button{
+    width: 155px;
+    padding: 12px;
+    border-radius: 8px;
+}
+.btndiv{
+    display: flex;
+    gap: 11px;
+}
+.secdiv1{
+    align-self: center;
+    position: relative;
+}
+.secdiv1 p{
+    margin-bottom: 25px;
+}
+.secdiv1 img{
+    width: 60%;
+}
+.scrolld{
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 120px;
+    color: white;
+}
+.lined{
+    height: 70px;
+    background: rgb(169 39 79);
+    width: 2px;
+}
+#scroll{
+    transform: rotate(270deg);
+    margin-bottom: 20px;
+}
+.last-section div{
+    flex: 1;
+}
+.last-section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background: linear-gradient(45deg, #bc1a53, #c65c1c);
+    color: white;
+    border: none;
+}
+.btn2{
+  border:3px solid  #6e1b42;
+   color: white;
+   background-color: transparent;
+}
+.btn1 i{
+    font-size: 22px;
+}
